@@ -1,0 +1,8 @@
+services:
+
+  cloud-finops-platform:
+    build: .
+    container_name: cloud-finops-platform
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
